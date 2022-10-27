@@ -1,4 +1,4 @@
-package org.map;
+package org.map.OneToOne;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -18,16 +18,16 @@ public class Answer {
         return answerId;
     }
 
+    public void setAnswerId(int answerId) {
+        this.answerId = answerId;
+    }
+
     public Question getQuestion() {
         return question;
     }
 
     public void setQuestion(Question question) {
         this.question = question;
-    }
-
-    public void setAnswerId(int answerId) {
-        this.answerId = answerId;
     }
 
     public String getAnswer() {

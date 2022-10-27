@@ -1,4 +1,4 @@
-package org.map;
+package org.map.OneToOne;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

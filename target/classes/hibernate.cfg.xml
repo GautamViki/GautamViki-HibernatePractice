@@ -12,7 +12,9 @@
         <property name="format_sql">true</property>
         <mapping class="org.example.Student"/>
         <mapping class="org.example.Address"/>
-        <mapping class="org.map.Question"/>
-        <mapping class="org.map.Answer"/>
+        <mapping class="org.map.OneToOne.Question"/>
+        <mapping class="org.map.OneToOne.Answer"/>
+        <mapping class="org.map.OneToMany.QuestionOToM"/>
+        <mapping class="org.map.OneToMany.AnswerOToM"/>
     </session-factory>
 </hibernate-configuration>
