@@ -12,11 +12,11 @@
         <property name="format_sql">true</property>
         <mapping class="org.example.Student"/>
         <mapping class="org.example.Address"/>
-        <mapping class="org.map.OneToOne.Question"/>
-        <mapping class="org.map.OneToOne.Answer"/>
-        <mapping class="org.map.OneToMany.QuestionOToM"/>
-        <mapping class="org.map.OneToMany.AnswerOToM"/>
-        <mapping class="org.map.ManyToMany.Project"/>
-        <mapping class="org.map.ManyToMany.Employee"/>
+        <!--        <mapping class="org.map.OneToOne.Question"/>-->
+        <!--        <mapping class="org.map.OneToOne.Answer"/>-->
+        <!--        <mapping class="org.map.OneToMany.QuestionOToM"/>-->
+        <!--        <mapping class="org.map.OneToMany.AnswerOToM"/>-->
+        <!--        <mapping class="org.map.ManyToMany.Project"/>-->
+        <!--        <mapping class="org.map.ManyToMany.Employee"/>-->
     </session-factory>
 </hibernate-configuration>
